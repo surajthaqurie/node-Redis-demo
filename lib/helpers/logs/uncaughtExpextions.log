@@ -1,0 +1,18 @@
+2019-09-20T17:23:30+05:45 [error]:Message - uncaughtException: Cannot read property 'name' of undefined
+TypeError: Cannot read property 'name' of undefined
+    at RedisClient.internal_send_command (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:914:128)
+    at RedisClient.send_offline_queue (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:543:14)
+    at RedisClient.on_ready (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:485:10)
+    at RedisClient.on_info_cmd (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:514:18)
+    at /home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:535:14
+    at Object.callbackOrEmit [as callback_or_emit] (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/lib/utils.js:89:9)
+    at Command.callback (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/lib/individualCommands.js:157:15)
+    at normal_reply (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:726:21)
+    at RedisClient.return_reply (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:824:9)
+    at JavascriptRedisParser.returnReply (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:192:18)
+    at JavascriptRedisParser.execute (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis-parser/lib/parser.js:574:12)
+    at Socket.<anonymous> (/home/sarathi/Desktop/workOut/redisTesting/node_modules/redis/index.js:274:27)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
